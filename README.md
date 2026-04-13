@@ -1,9 +1,6 @@
 # Pneumonia Detection in Chest X-Rays using Transfer Learning
 
-![Project Demo](./images/project_demo.png)
-*(Note: It is highly recommended to add a screenshot of your notebook's final confusion matrix or a key visualization here.)*
-
-This project implements a Convolutional Neural Network (CNN) to classify chest X-ray images as either "Normal" or showing signs of "Pneumonia". It leverages the power of **transfer learning** with the **ResNet50** architecture pre-trained on the ImageNet dataset to achieve high accuracy on this medical imaging task.
+This project implements a CNN to classify chest X-ray images as either "Normal" or showing signs of "Pneumonia". It leverages the power of **transfer learning** with the **ResNet50** architecture pre-trained on the ImageNet dataset to achieve high accuracy on this medical imaging task.
 
 The entire project is structured as a Google Colab notebook for easy execution and reproducibility.
 
@@ -21,7 +18,7 @@ This project is designed to be run in a Google Colab environment to leverage fre
 
 1.  **Clone the Repository**
     ```bash
-    git clone https://github.com/your-username/your-repo-name.git
+    git clone https://github.com/Trivial137/Machine-Learning_Longjie
     ```
 
 2.  **Open in Google Colab**
