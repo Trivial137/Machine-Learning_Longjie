@@ -1,6 +1,6 @@
-# Pneumonia Detection in Chest X-Rays using Transfer Learning
+# Machine Learning
 
-This project implements a CNN to classify chest X-ray images as either "Normal" or showing signs of "Pneumonia". It leverages the power of **transfer learning** with the **ResNet50** architecture pre-trained on the ImageNet dataset to achieve high accuracy on this medical imaging task.
+This repo serves as a project of Lecture **Machine Learning**. 
 
 The entire project is structured as a Google Colab notebook for easy execution and reproducibility.
 
@@ -8,7 +8,7 @@ The entire project is structured as a Google Colab notebook for easy execution a
 
 ## Getting Started
 
-This project is designed to be run in a Google Colab environment to leverage free GPU resources.
+This project is designed to be run in a Google Colab.
 
 ### Prerequisites
 - A Google Account to use Google Colab.
