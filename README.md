@@ -77,10 +77,10 @@ After training, the model was evaluated on the unseen test set.
 The notebook generates key visualizations to interpret model performance.
 
 **Confusion Matrix:** Shows the breakdown of correct and incorrect predictions.
-![Confusion Matrix](./images/confusion_matrix.png)
+![Confusion Matrix](./confusion_matrix.png)
 
 **Training History:** Plots the accuracy and loss curves over epochs to check for overfitting.
-![Training History](./images/training_history.png)
+![Training History](./training_history.png)
 
 *(To include these images, create an `images` folder in your repository, save the plots from the notebook into it, and commit them.)*
 
