@@ -82,7 +82,6 @@ The notebook generates key visualizations to interpret model performance.
 **Training History:** Plots the accuracy and loss curves over epochs to check for overfitting.
 ![Training History](./training_history.png)
 
-*(To include these images, create an `images` folder in your repository, save the plots from the notebook into it, and commit them.)*
 
 ---
 
