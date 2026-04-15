@@ -44,13 +44,6 @@ The core of this project is **transfer learning**.
 3.  **Custom Classifier:** A new classifier "head" is added on top of the ResNet50 base. Only the weights of this new classifier are trained.
 4.  **Data Augmentation:** To prevent overfitting, the training images are artificially augmented with random rotations, zooms, shifts, and flips.
 
-### Tech Stack
-- TensorFlow / Keras
-- Scikit-learn
-- NumPy
-- Matplotlib & Seaborn
-- Google Colab
-
 ---
 
 ## Results
