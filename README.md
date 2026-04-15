@@ -52,10 +52,10 @@ After training, the model was evaluated on the unseen test set.
 
 | Metric     | Score      |
 | :--------- | :--------- |
-| Test Accuracy   | **72.28%**   |
-| Test Precision  | **71.23%**   |
-| Test Recall     | **93.33%**   |
-| Test Loss       | **0.5185**  |
+| Test Accuracy   | **84.29%**   |
+| Test Precision  | **81.20%**   |
+| Test Recall     | **97.44%**   |
+| Test Loss       | **0.3726**  |
 
 #### Visualizations
 The notebook generates key visualizations to interpret model performance.
