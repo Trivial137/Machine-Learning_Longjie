@@ -1,8 +1,6 @@
 # Machine Learning
 
-This repo serves as a project of Lecture **Machine Learning**. 
-
-The entire project is structured as a Google Colab notebook for easy execution and reproducibility.
+This repo serves as a project of the Lecture **Machine Learning**. 
 
 ---
 
@@ -14,25 +12,21 @@ This project is designed to be run in a Google Colab.
 - A Google Account to use Google Colab.
 - A Kaggle Account to download the dataset via their API.
 
-### Installation and Execution
+### Execution
 
-1.  **Clone the Repository**
-    ```bash
-    git clone https://github.com/Trivial137/Machine-Learning_Longjie
-    ```
-
-2.  **Open in Google Colab**
+1.  **Open in Google Colab**
     - Go to [Google Colab](https://colab.research.google.com/).
     - Click `File > Upload notebook`.
-    - Upload the `pneumonia_detection.ipynb` file from the cloned repository.
+    - Upload the file.
 
-3.  **Configure Kaggle API**
-    - The notebook requires a Kaggle API token to download the dataset. Go to your Kaggle account page, scroll to the API section, and click **"Create Legacy API Key"** to download a `kaggle.json` file.
-    - Run the first code cell in the notebook. It will prompt you to **upload the `kaggle.json` file** you just downloaded.
+2.  **Configure Kaggle API**
+    - The notebook requires a Kaggle API token to download the dataset.
+    - 
+    - Run the first code cell in the notebook. It will prompt you to **upload the `kaggle.json` file**.
 
-4.  **Run the Notebook**
+3.  **Run the Notebook**
     - Execute the cells sequentially from top to bottom.
-    - Make sure to set the runtime type to **GPU** (`Runtime > Change runtime type > GPU`) for significantly faster training.
+    - Make sure to set the runtime type to **GPU**.
 
 ---
 
@@ -46,7 +40,7 @@ The project utilizes the "Chest X-Ray Images (Pneumonia)" dataset available on K
 
 ### Methodology
 The core of this project is **transfer learning**.
-1.  **Pre-trained Base:** We use the `ResNet50` model, pre-trained on the ImageNet dataset, as a fixed feature extractor.
+1.  **Pre-trained Base:** We use the `ResNet50` model & `Adam` optimizer.
 2.  **Freezing Layers:** The convolutional base of ResNet50 is "frozen" to preserve its learned feature representations.
 3.  **Custom Classifier:** A new classifier "head" is added on top of the ResNet50 base. Only the weights of this new classifier are trained.
 4.  **Data Augmentation:** To prevent overfitting, the training images are artificially augmented with random rotations, zooms, shifts, and flips.
