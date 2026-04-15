@@ -21,7 +21,6 @@ This project is designed to be run in a Google Colab.
 
 2.  **Configure Kaggle API**
     - The notebook requires a Kaggle API token to download the dataset.
-    - 
     - Run the first code cell in the notebook. It will prompt you to **upload the `kaggle.json` file**.
 
 3.  **Run the Notebook**
