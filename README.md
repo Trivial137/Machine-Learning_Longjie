@@ -39,8 +39,8 @@ The project utilizes the "Chest X-Ray Images (Pneumonia)" dataset available on K
 
 ### Methodology
 The core of this project is **transfer learning**.
-1.  **Pre-trained Base:** We use the `ResNet50` model & `Adam` optimizer.
-2.  **Freezing Layers:** The convolutional base of ResNet50 is "frozen" to preserve its learned feature representations.
+1.  **Pre-trained Base:** We use the `EfficientNetB7` model & `Adam` optimizer.
+2.  **Freezing Layers:** The convolutional base of EfficientNetB7 is "frozen" to preserve its learned feature representations.
 3.  **Custom Classifier:** A new classifier "head" is added on top of the ResNet50 base. Only the weights of this new classifier are trained.
 4.  **Data Augmentation:** To prevent overfitting, the training images are artificially augmented with random rotations, zooms, shifts, and flips.
 
