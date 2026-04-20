@@ -38,9 +38,9 @@ The project utilizes the "Chest X-Ray Images (Pneumonia)" dataset available on K
 *   **Classes:** `PNEUMONIA` and `NORMAL`.
 
 ### Methodology
-The core of this project is **building intuition with a simple CNN**.
-1.  **Custom CNN Architecture:** We built a lightweight, custom CNN with 3 convolutional blocks (32→64→128 filters) instead of using transfer learning.
-2.  **Data Preparation:** Images are resized to **150x150** pixels for faster training and iteration.
+The core of this project is **building with Transfered Learning with CNN**.
+1.  **Transfer Learning:** We built a pre-trained VGG16 model (trained on ImageNet) as a feature extractor and added a custom classification head for binary classification.
+2.  **Data Preparation:** Images are resized to **224x224** pixels for faster training and iteration.
 3.  **Data Augmentation:** To prevent overfitting and teach robust feature learning, training images are augmented with random rotations, zooms, shifts, and horizontal flips.
 ---
 
